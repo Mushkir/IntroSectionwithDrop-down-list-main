@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #FFF9FB;
+}
+/* Menu bae design */
+.nav-bar nav{
+    display: flex;
+    align-items: center;
+    /* background: greenyellow; */
+    padding: 35px 45px;
+    cursor: pointer;
+    height: 15vh;
+}
+
+.logo{
+    margin-right: 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 1.2em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+.btn{
+    margin-left: auto;
+}
+
+#login,
+#register{
+    background: transparent;
+    border: none;
+    outline: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#register{
+    border: 2px solid black;
+}
+
+.main-tags{
+    position: relative;
+}
+
+.main-tags div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-tags div p{
+    margin-right: 10px;
+}
+
+.option{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+}
+
+.option img{
+    margin-right: 15px;
+}
+
+#list{
+    position: absolute;
+    background: #cccad0;
+    padding: 15px;
+    border-radius: 8px;
+    left: 10px;
+    margin-top: 15px;
+    transform: translateX(-50%);
+}
+
+.hide{
+    visibility: hidden;
+}
+
+#list-company{
+    position: absolute;
+    background: #cccad0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    width: 120px;
+}
+
+.list-company-hide{
+    visibility: hidden;
+}
+
+/* Body */
+
+.body-content{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background: yellowgreen; */
+    height: 80vh;
+
+}
+
+.left-detail{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.left-detail h1{
+    font-size: 70px;
+}
+
+.left-detail p{
+    margin: 35px 0;
+    color: grey;
+}
+
+.left-detail button{
+    background: transparent;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.left-detail .clients{
+    margin-top: 5em;
+    display: flex;
+
+}
+
+.clients img{
+    margin-right: 2.5em;
+}
+
+.right-image img{
+    height: 60vh;
+    margin-right: 7em;
+    margin-top: 1em;
+}
